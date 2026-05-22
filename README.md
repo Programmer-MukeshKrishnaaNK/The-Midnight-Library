@@ -2,6 +2,8 @@
 
 A deeply immersive, sensory-rich digital sanctuary designed for readers to unlock instant, premium book summaries utilizing personal Google Gemini API keys. 
 
+🚀 **Live Deployment:** [https://the-midnight-library.netlify.app/](https://the-midnight-library.netlify.app/)
+
 This is not a generic, sterile AI wrapper. **The Midnight Library** is a production-grade experiment in bridging high-fidelity aesthetic storytelling with complex client-side engineering. It was built from scratch to challenge standard UI conventions—trading cold flat components for the tactile warmth of premium cotton paper, rain-slicked windows, and flickering candlelight.
 
 ---
@@ -13,7 +15,7 @@ While this application was built utilizing the cutting-edge paradigm of **Vibe C
 ### The Engineering Challenges Conquered:
 * **Dynamic 3D Coordinate Physics:** Getting the floating bookshelf to interact smoothly with the user's viewport meant managing real-time cursor tracking data, mapping mouse movements onto custom CSS perspective planes, and maintaining 60 FPS without layout lag.
 * **Complex UI State Management:** Controlling the fluid choreography between screens—transitioning seamlessly from the dark foyer entrance, through a heavy teacup incubation processing state, and expanding into a massive, wide-margin editorial grid—demanded meticulous native JavaScript DOM synchronization.
-* **The "Failed to Fetch" Security Wall:** Because the app runs entirely out of a single, localized file origin to guarantee absolute code transparency, standard browser security mechanics continuously threw strict `CORS` and `file://` network errors. Overcoming these restrictions meant engineering an advanced internal diagnostic ledger capable of inspecting its own execution environment and safely routing data pathways directly to Google's cloud edge.
+* **The "Failed to Fetch" Security Wall:** Because the app runs entirely out of a client-side origin to guarantee absolute code transparency, standard browser security mechanics continuously threw strict network errors. Overcoming these restrictions meant engineering an advanced internal diagnostic ledger capable of inspecting its own execution environment and safely routing data pathways directly to Google's cloud edge.
 
 Every animation curve, color variable, text layout constraint, and error block was pushed, tested, and polished to the absolute limit of what client-side single-file architecture can achieve.
 
@@ -41,19 +43,16 @@ Unlike standard implementations that truncate responses due to small token thres
 
 ---
 
-## 🚀 Quick Start & Manual Deployment
+## 🚀 Quick Start & Deployment
 
-Because modern browsers protect client-side environments by restricting cloud API requests over direct desktop file tracks, running this application requires a proper local web origin:
-
-### 1. Launch a Local Environment
-* **VS Code:** Install the **Live Server** extension, right-click `index.html`, and select **Open with Live Server**.
-* **Python:** Run `python -m http.server 8000` in your directory and open `http://localhost:8000`.
-* **Node:** Run `npx serve` directly within your project workspace.
+### 1. Access the Sanctuary
+You can run the application instantly via the global Netlify edge:
+👉 **[https://the-midnight-library.netlify.app/](https://the-midnight-library.netlify.app/)**
 
 ### 2. Connect Your Ledger Key
 1. Go to the official Google AI Studio platform at [aistudio.google.com](https://aistudio.google.com/).
 2. Authenticate using any standard Google account.
-3. Click **"Get API key"**, generate a new string, and paste it securely into the library vault.
+3. Click **"Get API key"**, generate a new string, and paste it securely into the library vault interface.
 
 ---
 
